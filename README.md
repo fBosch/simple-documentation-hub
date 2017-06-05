@@ -1,4 +1,5 @@
 # Documentation Hub
+[![Build Status](https://travis-ci.org/fBosch/simple-documentation-hub.svg?branch=master)](https://travis-ci.org/fBosch/simple-documentation-hub)
 
 The template follows a very simple convention of defining categories that correspond to sections in the navigation. Here are the default ones (they are listed in the `_config.yml`):
 
