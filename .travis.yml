@@ -1,0 +1,10 @@
+language: ruby
+install: gem install jekyll
+script: jekyll build
+deploy: 
+  provider: pages
+  skip_cleanup: true
+  local_dir: _site
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
