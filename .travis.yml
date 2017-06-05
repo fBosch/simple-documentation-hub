@@ -1,6 +1,9 @@
 language: ruby
-install: gem install jekyll
-script: jekyll build
+rvm:
+- 2.3.3
+before_script:
+ - chmod +x ./cibuild
+script: ./cibuild
 deploy: 
   provider: pages
   skip_cleanup: true
