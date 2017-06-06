@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "serve": "jekyll build --watch && http-server ./_site",
+    "create": "ruby bin/jekyll-page"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
